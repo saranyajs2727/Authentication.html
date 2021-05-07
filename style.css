@@ -1,0 +1,46 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: url(tree-276014_1920.jpg\ -\ Shortcut.lnk) no-repeat;
+    background-size: cover;
+
+}
+.login-box
+{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: azure;
+
+}
+.login-box h1{
+    float:left;
+    font-size: 40px;
+    border-bottom: 6px solid;
+    margin-bottom: 50px;
+    padding: 10px 0;
+}
+.textbox{
+   width: 100%;
+   overflow: hidden;
+   font-size: 20px;
+   padding: 8px 0;
+   margin: 8px 0;
+   border-bottom: 1px solid; 
+}
+.btn
+{
+    width: 100%;
+    background: none;
+    border: 2px solid;
+    padding: 5px;
+    cursor: pointer;
+    color:azure;
+    margin: 12px;
+    font-size: 20px;
+}
